@@ -1,12 +1,12 @@
-#from joblib import PrintTime
-#from matplotlib.pyplot import title
+from joblib import PrintTime
+from matplotlib.pyplot import title
 import requests
 import pandas as pd
 import streamlit as st
 from newspaper import Article
 import nltk
 import streamlit as st
-#nltk.download('punkt')
+nltk.download('punkt')
 
 option = ['business','technology','entertainment']
 headers = {'X-Api-Key': 'a64fadec7ec7420cb83b631a2f1b203a'}

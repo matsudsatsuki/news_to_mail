@@ -1,20 +1,10 @@
 #from joblib import PrintTime
-from matplotlib.pyplot import title
+#from matplotlib.pyplot import title
 import requests
 import pandas as pd
 import streamlit as st
-import numpy as np
-import os
-import urllib.request
-import json
-import configparser
-import codecs
-import requests
-from bs4 import BeautifulSoup
-import re
 from newspaper import Article
 import nltk
-import time
 import streamlit as st
 #nltk.download('punkt')
 
